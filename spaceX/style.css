@@ -1,0 +1,123 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#f5f5f5;
+
+    box-sizing: border-box;
+}
+.flight-container{
+    padding:15px;
+    background-color:#fff;
+    display:inine-flex;
+    flex-direction:column;
+    min-height:182px;
+    justify-content:center;
+    float:left;
+    margin:1%;
+    font-size:15px;
+    border-radius:10px;
+    font-weight:600;
+    
+}
+.mission_name {
+    width: 25ch;
+}
+span{
+    color:rgb(77, 77, 77);
+    font-weight:normal;
+}
+img{
+  width:100%;
+  height: auto;
+  max-width:200px;
+  text-align:center;
+  margin-bottom:15px;
+}
+
+.filter{
+    width:25%;
+    height:100%;
+    float:left;
+    padding-right:10px;
+}
+.filter li{
+float:left;
+width:23%;
+list-style-type:none;
+padding:8px 12px;
+background-color:rgba(0,158,0,0.5);
+margin:1%;
+text-align:center;
+border-radius:10px;
+cursor:pointer;
+}
+.filter li.active{
+    background-color:green;
+}
+#app{
+    width:73%;
+    float:right;
+}
+h1{
+  font-size:25px;
+  clear:both;
+}
+ .active{
+     background-color:green;
+     color:#fff;
+ }
+@media only screen and (max-width:767px){
+  .filter{
+    width:100%;
+    height:auto;
+    float:none;
+    padding-right:15px;
+}
+  #app{
+    width:100%;
+    clear:both;
+    float:none;
+  }
+    .flight-container{
+    width:92%;
+    display:flex;
+    margin:1% auto;
+    padding:15px;
+  }
+}
+
+@media  (min-width:768px) and (max-width:980px){
+ 
+   #app{
+    width:100%;
+    clear:both;
+  }
+    .filter{
+    width:100%;
+    height:auto;
+    float:none;
+    padding-right:30px;
+}
+ .flight-container{
+    width:44%;
+    display:flex;
+    padding:15px;
+  
+  }
+}
+
+@media  (min-width:981px) and (max-width:1200px){
+ 
+    #app{
+     width:65%;
+   }
+     .filter{
+     width:29%;
+     height:auto;
+     padding-right:30px;
+ }
+  .flight-container{
+     width:43%;
+     display:flex;
+   padding:15px;
+   }
+ }
