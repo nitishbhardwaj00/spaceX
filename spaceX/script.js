@@ -154,5 +154,12 @@ ${list}
                             $('li.active').removeClass("active"); 
                             $(this).addClass("active"); 
                         }); 
+     
+     $('.filter').on('click',()=>{
+     
+     
+     });
                     }); 
     
+
+
