@@ -11,9 +11,9 @@ $(function(){
        console.log(NEWURL);
        $.getJSON(NEWURL, function(data) {
         
-      
-       document.getElementById('app').innerHTML = `
-    <h1> SpaceX launch programme</h1>
+      // Appending HTML
+       document.getElementsByClassName('flex-container').innerHTML = `
+ 
         
         ${data.map(function(flightData){
     
@@ -76,8 +76,8 @@ $.getJSON(URL, function(data) {
         
     //console.log(data)
         // console.log(obj.colleges[0].college_name);
-   document.getElementById('app').innerHTML = `
-<h1> SpaceX launch programme</h1>
+   document.getElementsByClassName('flex-container').innerHTML = `
+
     
     ${data.map(function(flightData){
 
