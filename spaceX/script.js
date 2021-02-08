@@ -155,8 +155,10 @@ ${list}
                             $(this).addClass("active"); 
                         }); 
      
-     $('.filter').on('click',()=>{
-     
+     $('#filter-year').on('click',()=>{
+     $('#parent').removeClass('active');
+          $('#parent').addClass('active');
+         return default;
      
      });
                     }); 
