@@ -158,7 +158,7 @@ ${list}
      $('#filter-year').on('click',()=>{
      $('#parent').removeClass('active');
           $('#parent').addClass('active');
-         return default;
+         
      
      });
                     }); 
