@@ -8,11 +8,11 @@ $(function(){
        var x = "&launch_year=";
        var cf = $(this).text();
        var NEWURL = zzz + x + cf;
-       console.log(NEWURL);
+       //console.log(NEWURL);
        $.getJSON(NEWURL, function(data) {
         
       // Appending HTML
-       document.getElementsByClassName('flex-container').innerHTML = `
+       document.getElementById('flex-container').innerHTML = `
  
         
         ${data.map(function(flightData){
@@ -76,7 +76,7 @@ $.getJSON(URL, function(data) {
         
     //console.log(data)
         // console.log(obj.colleges[0].college_name);
-   document.getElementsByClassName('flex-container').innerHTML = `
+   document.getElementById('flex-container').innerHTML = `
 
     
     ${data.map(function(flightData){
