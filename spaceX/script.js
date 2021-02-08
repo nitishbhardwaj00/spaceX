@@ -44,7 +44,7 @@ $(function(){
     
         
     return `
-    <header class="flex-container">
+    
     <section class="flight-container">
     <div class="equalcontentcolumn">
     <img src=${links} />
@@ -61,7 +61,7 @@ $(function(){
     <div class="launch_year">Successful Landing: <span>${successful_landing}</span></div>
     </div>
     </section>
-    </header>
+  
     
     `
     
@@ -108,7 +108,7 @@ $.getJSON(URL, function(data) {
 
     
 return `
-<header class="flex-container">
+
 <section class="flight-container">
 <div class="equalcontentcolumn">
 <img src=${links} />
@@ -125,7 +125,7 @@ ${list}
 <div class="launch_year">Successful Landing: <span>${successful_landing}</span></div>
 </div>
 </section>
-</header>
+
 
 `
 
